@@ -8,6 +8,7 @@ val simpleRdd = sc.parallelize(simpleData)
 // COMMAND ----------
 
 val simpleDF = sqlContext.createDataFrame(simpleRdd)
+display(simpleDF)
 
 // COMMAND ----------
 
