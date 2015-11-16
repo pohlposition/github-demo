@@ -1,4 +1,4 @@
-// Databricks notebook source exported at Mon, 16 Nov 2015 20:54:04 UTC
+// Databricks notebook source exported at Mon, 16 Nov 2015 20:55:10 UTC
 val simpleData = Seq(("Group A","Section 1",50),("Group B","Section 2", 75), ("Group A", "Section 1", 25))
 
 // COMMAND ----------
