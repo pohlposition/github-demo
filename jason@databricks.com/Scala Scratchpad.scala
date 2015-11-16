@@ -11,7 +11,7 @@ val simpleDF = sqlContext.createDataFrame(simpleRdd)
 
 // COMMAND ----------
 
-println("Hello World")
+println("Hello Elizabeth")
 
 // COMMAND ----------
 
