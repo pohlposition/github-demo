@@ -1,4 +1,4 @@
-// Databricks notebook source exported at Tue, 19 Jan 2016 19:08:27 UTC
+// Databricks notebook source exported at Tue, 19 Jan 2016 19:48:42 UTC
 // MAGIC %md
 // MAGIC 
 // MAGIC # **Ingest Logs**
@@ -56,6 +56,10 @@ def parseLogLine(log: String): ApacheAccessLog = {
 // MAGIC %md
 // MAGIC 
 // MAGIC ### **Step 3:** Load the log lines into Spark
+
+// COMMAND ----------
+
+// MAGIC %fs mounts
 
 // COMMAND ----------
 
@@ -187,6 +191,10 @@ accessLogsDf.printSchema
 
 // COMMAND ----------
 
+display(accessLogsDf)
+
+// COMMAND ----------
+
 // MAGIC %md Parse out Year, Month, Day
 
 // COMMAND ----------
@@ -298,6 +306,10 @@ val pctReduction = 100 * (1 - (totalOutputFileSize.toFloat / totalInputFileSize.
 println(s"Total Size of Input Files : ${totalInputFileSize}")
 println(s"Total Size of Output Files: ${totalOutputFileSize}")
 println(s"Reduction in File Size    : ${pctReduction}%")
+
+// COMMAND ----------
+
+// MAGIC %md #Hello
 
 // COMMAND ----------
 
