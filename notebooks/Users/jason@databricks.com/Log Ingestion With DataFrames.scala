@@ -1,4 +1,4 @@
-// Databricks notebook source exported at Tue, 19 Jan 2016 19:04:03 UTC
+// Databricks notebook source exported at Tue, 19 Jan 2016 19:08:27 UTC
 // MAGIC %md
 // MAGIC 
 // MAGIC # **Ingest Logs**
