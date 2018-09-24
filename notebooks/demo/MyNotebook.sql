@@ -3,7 +3,7 @@ show tables
 
 -- COMMAND ----------
 
--- MAGIC %md #Test
+-- MAGIC %md #NEW HEADING
 
 -- COMMAND ----------
 
